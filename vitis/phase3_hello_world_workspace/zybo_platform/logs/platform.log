@@ -1,0 +1,2330 @@
+TRACE::2026-05-05.13:03:26::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:26::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:26::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:26::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:26::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:26::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:26::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-05-05.13:03:28::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-05-05.13:03:28::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform"
+		}]
+}
+TRACE::2026-05-05.13:03:28::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-05-05.13:03:28::SCWDomain::checking for install qemu data   : 
+TRACE::2026-05-05.13:03:28::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-05-05.13:03:28::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:28::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2026-05-05.13:03:28::SCWPlatform::Generating the sources  .
+TRACE::2026-05-05.13:03:28::SCWBDomain::Generating boot domain sources.
+TRACE::2026-05-05.13:03:28::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:28::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:28::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-05-05.13:03:28::SCWMssOS::No sw design opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::mss does not exists at C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::Creating sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::Adding the swdes entry, created swdb C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::Writing mss at C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:28::SCWMssOS::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-05-05.13:03:28::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-05-05.13:03:28::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-05-05.13:03:29::SCWBDomain::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-05-05.13:03:47::SCWPlatform::Generating sources Done.
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-05-05.13:03:47::SCWMssOS::No sw design opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::mss exists loading the mss file  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Opened the sw design from mss  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Adding the swdes entry C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2026-05-05.13:03:47::SCWMssOS::updating the scw layer about changes
+TRACE::2026-05-05.13:03:47::SCWMssOS::Opened the sw design.  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:47::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWDomain::checking for install qemu data   : 
+TRACE::2026-05-05.13:03:47::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-05-05.13:03:47::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:47::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:47::SCWMssOS::No sw design opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::mss does not exists at C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Creating sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Adding the swdes entry, created swdb C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Writing mss at C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:47::SCWMssOS::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-05-05.13:03:47::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-05-05.13:03:47::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-05-05.13:03:47::SCWMssOS::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-05-05.13:03:47::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-05-05.13:03:52::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:52::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:52::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2026-05-05.13:03:52::SCWMssOS::Writing the mss file completed C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"9ba77c14897b77cd6740901bf6f24f75",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-05-05.13:03:52::SCWPlatform::Started generating the artifacts platform zybo_platform
+TRACE::2026-05-05.13:03:52::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-05-05.13:03:52::SCWPlatform::Started generating the artifacts for system configuration zybo_platform
+LOG::2026-05-05.13:03:52::SCWSystem::Checking the domain zynq_fsbl
+LOG::2026-05-05.13:03:52::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2026-05-05.13:03:52::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-05-05.13:03:52::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2026-05-05.13:03:52::SCWSystem::Checking the domain standalone_domain
+LOG::2026-05-05.13:03:52::SCWSystem::Not a boot domain 
+LOG::2026-05-05.13:03:52::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-05-05.13:03:52::SCWDomain::Generating domain artifcats
+TRACE::2026-05-05.13:03:52::SCWMssOS::Generating standalone artifcats
+TRACE::2026-05-05.13:03:52::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/019130137/workspace/zybo_platform/export/zybo_platform/sw/zybo_platform/qemu/
+TRACE::2026-05-05.13:03:52::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/019130137/workspace/zybo_platform/export/zybo_platform/sw/zybo_platform/standalone_domain/qemu/
+TRACE::2026-05-05.13:03:52::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:52::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:52::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:52::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-05-05.13:03:52::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-05-05.13:03:52::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-05-05.13:03:52::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2026-05-05.13:03:52::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-05-05.13:03:52::SCWMssOS::Copying to export directory.
+TRACE::2026-05-05.13:03:52::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-05-05.13:03:52::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2026-05-05.13:03:52::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2026-05-05.13:03:52::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-05-05.13:03:52::SCWSystem::Completed Processing the sysconfig zybo_platform
+LOG::2026-05-05.13:03:52::SCWPlatform::Completed generating the artifacts for system configuration zybo_platform
+TRACE::2026-05-05.13:03:52::SCWPlatform::Started preparing the platform 
+TRACE::2026-05-05.13:03:52::SCWSystem::Writing the bif file for system config zybo_platform
+TRACE::2026-05-05.13:03:52::SCWSystem::dir created 
+TRACE::2026-05-05.13:03:52::SCWSystem::Writing the bif 
+TRACE::2026-05-05.13:03:52::SCWPlatform::Started writing the spfm file 
+TRACE::2026-05-05.13:03:52::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-05-05.13:03:52::SCWPlatform::Completed generating the platform
+TRACE::2026-05-05.13:03:52::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"9ba77c14897b77cd6740901bf6f24f75",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-05-05.13:03:53::SCWPlatform::updated the xpfm file.
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"9ba77c14897b77cd6740901bf6f24f75",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:53::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:53::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:53::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"9ba77c14897b77cd6740901bf6f24f75",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-05-05.13:03:54::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:54::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:54::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:54::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.13:03:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:54::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:54::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"9ba77c14897b77cd6740901bf6f24f75",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-05-05.13:03:54::SCWPlatform::Clearing the existing platform
+TRACE::2026-05-05.13:03:54::SCWSystem::Clearing the existing sysconfig
+TRACE::2026-05-05.13:03:54::SCWBDomain::clearing the fsbl build
+TRACE::2026-05-05.13:03:54::SCWMssOS::Removing the swdes entry for  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWMssOS::Removing the swdes entry for  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:54::SCWSystem::Clearing the domains completed.
+TRACE::2026-05-05.13:03:55::SCWPlatform::Clearing the opened hw db.
+TRACE::2026-05-05.13:03:55::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform:: Platform location is C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:55::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:55::SCWPlatform::Removing the HwDB with name C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:55::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:55::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:55::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-05-05.13:03:57::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWReader::Active system found as  zybo_platform
+TRACE::2026-05-05.13:03:57::SCWReader::Handling sysconfig zybo_platform
+TRACE::2026-05-05.13:03:57::SCWDomain::checking for install qemu data   : 
+TRACE::2026-05-05.13:03:57::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-05-05.13:03:57::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-05-05.13:03:57::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:57::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:57::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:57::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:57::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:57::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-05-05.13:03:58::SCWMssOS::No sw design opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::mss exists loading the mss file  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Opened the sw design from mss  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Adding the swdes entry C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2026-05-05.13:03:58::SCWMssOS::updating the scw layer about changes
+TRACE::2026-05-05.13:03:58::SCWMssOS::Opened the sw design.  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:58::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS:: library already available in sw design:  xilffs:4.5
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:58::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2026-05-05.13:03:58::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:58::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:58::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2026-05-05.13:03:58::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:58::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWReader::No isolation master present  
+TRACE::2026-05-05.13:03:58::SCWDomain::checking for install qemu data   : 
+TRACE::2026-05-05.13:03:58::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2026-05-05.13:03:58::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:58::SCWMssOS::No sw design opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::mss exists loading the mss file  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Opened the sw design from mss  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Adding the swdes entry C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2026-05-05.13:03:58::SCWMssOS::updating the scw layer about changes
+TRACE::2026-05-05.13:03:58::SCWMssOS::Opened the sw design.  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:03:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:03:58::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:03:58::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2026-05-05.13:03:58::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:03:58::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:03:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:03:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:03:58::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:03:58::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:03:58::SCWReader::No isolation master present  
+LOG::2026-05-05.13:11:13::SCWPlatform::Started generating the artifacts platform zybo_platform
+TRACE::2026-05-05.13:11:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-05-05.13:12:43::SCWPlatform::Started generating the artifacts for system configuration zybo_platform
+LOG::2026-05-05.13:12:43::SCWSystem::Checking the domain zynq_fsbl
+LOG::2026-05-05.13:12:43::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2026-05-05.13:12:43::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-05-05.13:12:43::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2026-05-05.13:12:43::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:12:43::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:12:43::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:12:43::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:12:44::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:12:44::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:12:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:12:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:12:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:12:44::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:12:44::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:12:44::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:12:44::SCWBDomain::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2026-05-05.13:12:44::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-05-05.13:12:44::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2026-05-05.13:12:44::SCWBDomain::System Command Ran  C:&  cd  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl& make -C  zynq_fsbl_bsp & make 
+TRACE::2026-05-05.13:12:44::SCWBDomain::make: Entering directory 'C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2026-05-05.13:12:44::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2026-05-05.13:12:44::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2026-05-05.13:12:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2026-05-05.13:12:44::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2026-05-05.13:12:44::SCWBDomain::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2026-05-05.13:12:45::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2026-05-05.13:12:45::SCWBDomain::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:45::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:45::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:45::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:45::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:45::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:45::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_14/src"
+
+TRACE::2026-05-05.13:12:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_14/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:12:45::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:12:45::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:46::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:46::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:46::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:46::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_5/src"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:46::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:46::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2026-05-05.13:12:46::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-05-05.13:12:46::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-05-05.13:12:46::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:47::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2026-05-05.13:12:47::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:47::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:47::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:47::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_12/src"
+
+TRACE::2026-05-05.13:12:47::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:47::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:47::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:47::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_5/src"
+
+TRACE::2026-05-05.13:12:47::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-05-05.13:12:47::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-05-05.13:12:47::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:12:50::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:12:50::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:50::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:50::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:50::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:50::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_5/src"
+
+TRACE::2026-05-05.13:12:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:50::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:50::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:51::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:51::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:51::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:51::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::'Finished building libraries sequentially.'
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -j 6 --no-print-directory par_libs
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2026-05-05.13:12:51::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2026-05-05.13:12:51::SCWBDomain::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2026-05-05.13:12:51::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2026-05-05.13:12:51::SCWBDomain::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:51::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:51::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:51::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:51::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_14/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:51::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:51::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_14/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:12:51::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:12:51::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:51::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:51::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:51::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:51::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_5/src"
+
+TRACE::2026-05-05.13:12:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:51::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:51::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-05-05.13:12:52::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-05-05.13:12:52::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:52::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:52::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_12/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:52::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:52::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_5/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-05-05.13:12:52::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-05-05.13:12:52::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:12:52::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:12:52::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:52::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:52::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:52::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:52::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_5/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:52::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:52::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:12:52::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:12:52::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-05-05.13:12:52::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-05-05.13:12:52::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-05-05.13:12:52::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-05-05.13:12:52::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:12:52::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:12:52::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:52::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:52::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:12:52::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:12:52::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_14/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_14/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2026-05-05.13:12:52::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2026-05-05.13:12:52::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2026-05-05.13:12:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:52::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:52::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:53::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2026-05-05.13:12:53::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:53::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:53::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:54::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_5/src"
+
+TRACE::2026-05-05.13:12:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:54::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:54::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:56::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2026-05-05.13:12:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:12:56::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:12:56::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:56::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2026-05-05.13:12:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:56::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:56::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:56::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_12/src"
+
+TRACE::2026-05-05.13:12:56::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:12:56::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:12:56::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:57::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_5/src"
+
+TRACE::2026-05-05.13:12:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:12:57::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:12:57::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:57::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2026-05-05.13:12:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2026-05-05.13:12:57::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2026-05-05.13:12:57::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2026-05-05.13:12:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:12:58::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:12:58::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2026-05-05.13:12:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:58::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:58::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:12:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_5/src"
+
+TRACE::2026-05-05.13:12:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:12:58::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:12:58::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:04::SCWBDomain::'Finished building libraries parallelly.'
+
+TRACE::2026-05-05.13:13:04::SCWBDomain::make --no-print-directory archive
+
+TRACE::2026-05-05.13:13:04::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xplatform_info.o ps7_c
+TRACE::2026-05-05.13:13:04::SCWBDomain::ortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xusbps_sinit.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xil_sleeptimer.o p
+TRACE::2026-05-05.13:13:04::SCWBDomain::s7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xsdps_opt
+TRACE::2026-05-05.13:13:04::SCWBDomain::ions.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cor
+TRACE::2026-05-05.13:13:04::SCWBDomain::texa9_0/lib/xemacps_hw.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xscutimer_selftest
+TRACE::2026-05-05.13:13:04::SCWBDomain::.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xsdps.o ps7_co
+TRACE::2026-05-05.13:13:04::SCWBDomain::rtexa9_0/lib/close.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_co
+TRACE::2026-05-05.13:13:04::SCWBDomain::rtexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xil_clocking.o ps7
+TRACE::2026-05-05.13:13:04::SCWBDomain::_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/kill.o ps7_cortexa9_0/li
+TRACE::2026-05-05.13:13:04::SCWBDomain::b/xuartps_g.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9
+TRACE::2026-05-05.13:13:04::SCWBDomain::_0/lib/lseek.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_
+TRACE::2026-05-05.13:13:04::SCWBDomain::0/lib/abort.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/l
+TRACE::2026-05-05.13:13:04::SCWBDomain::ib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa
+TRACE::2026-05-05.13:13:04::SCWBDomain::9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/_sbrk.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9
+TRACE::2026-05-05.13:13:04::SCWBDomain::_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa
+TRACE::2026-05-05.13:13:04::SCWBDomain::9_0/lib/xqspips_selftest.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xemacps_contr
+TRACE::2026-05-05.13:13:04::SCWBDomain::ol.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xsdps_host.o
+TRACE::2026-05-05.13:13:04::SCWBDomain:: ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/sleep.o p
+TRACE::2026-05-05.13:13:04::SCWBDomain::s7_cortexa9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_
+TRACE::2026-05-05.13:13:04::SCWBDomain::0/lib/xdevcfg.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_0/lib/x
+TRACE::2026-05-05.13:13:04::SCWBDomain::il_cache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/tra
+TRACE::2026-05-05.13:13:04::SCWBDomain::nslation_table.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/cp
+TRACE::2026-05-05.13:13:04::SCWBDomain::u_init.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xscug
+TRACE::2026-05-05.13:13:04::SCWBDomain::ic_g.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/outbyte.
+TRACE::2026-05-05.13:13:04::SCWBDomain::o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xuartps_i
+TRACE::2026-05-05.13:13:04::SCWBDomain::ntr.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/sbrk
+TRACE::2026-05-05.13:13:04::SCWBDomain::.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/fstat.o ps7_cortexa9_0/lib/errno.o ps7_corte
+TRACE::2026-05-05.13:13:04::SCWBDomain::xa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/_exit.o ps7_cor
+TRACE::2026-05-05.13:13:04::SCWBDomain::texa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/xil-crt0.o ps7_
+TRACE::2026-05-05.13:13:04::SCWBDomain::cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xqspips_sinit.o ps7_c
+TRACE::2026-05-05.13:13:04::SCWBDomain::ortexa9_0/lib/xadcps_sinit.o
+
+TRACE::2026-05-05.13:13:05::SCWBDomain::'Finished building libraries'
+
+TRACE::2026-05-05.13:13:05::SCWBDomain::make: Leaving directory 'C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2026-05-05.13:13:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2026-05-05.13:13:05::SCWBDomain::exa9_0/include -I.
+
+TRACE::2026-05-05.13:13:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-05-05.13:13:05::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-05-05.13:13:05::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:06::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c image_mover.c -o image_mover.o -Izynq
+TRACE::2026-05-05.13:13:06::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:06::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-05-05.13:13:06::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:07::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2026-05-05.13:13:07::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:07::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-05-05.13:13:07::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:07::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2026-05-05.13:13:07::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:08::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-05-05.13:13:08::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:08::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2026-05-05.13:13:08::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:08::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2026-05-05.13:13:08::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:09::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2026-05-05.13:13:09::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2026-05-05.13:13:09::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o  pcap
+TRACE::2026-05-05.13:13:09::SCWBDomain::.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-05-05.13:13:09::SCWBDomain::Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgc
+TRACE::2026-05-05.13:13:09::SCWBDomain::c,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                   -Wl,--gc-sections -Lzyn
+TRACE::2026-05-05.13:13:09::SCWBDomain::q_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2026-05-05.13:13:10::SCWSystem::Checking the domain standalone_domain
+LOG::2026-05-05.13:13:10::SCWSystem::Not a boot domain 
+LOG::2026-05-05.13:13:10::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-05-05.13:13:10::SCWDomain::Generating domain artifcats
+TRACE::2026-05-05.13:13:10::SCWMssOS::Generating standalone artifcats
+TRACE::2026-05-05.13:13:10::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/019130137/workspace/zybo_platform/export/zybo_platform/sw/zybo_platform/qemu/
+TRACE::2026-05-05.13:13:10::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/019130137/workspace/zybo_platform/export/zybo_platform/sw/zybo_platform/standalone_domain/qemu/
+TRACE::2026-05-05.13:13:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-05-05.13:13:10::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:10::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:10::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:10::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:13:10::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:10::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:13:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:13:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:13:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:13:10::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:10::SCWMssOS::Completed writing the mss file at C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2026-05-05.13:13:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-05-05.13:13:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-05-05.13:13:10::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2026-05-05.13:13:10::SCWMssOS::doing bsp build ... 
+TRACE::2026-05-05.13:13:10::SCWMssOS::System Command Ran  C: & cd  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2026-05-05.13:13:10::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2026-05-05.13:13:10::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2026-05-05.13:13:10::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2026-05-05.13:13:10::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2026-05-05.13:13:10::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:13:10::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:13:10::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:13:10::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:13:10::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:13:10::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:13:10::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_14/src"
+
+TRACE::2026-05-05.13:13:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_14/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:13:10::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:13:10::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:13:11::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:13:11::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:13:11::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:13:11::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_5/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:13:11::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:13:11::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2026-05-05.13:13:11::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2026-05-05.13:13:11::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:13:11::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:13:11::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_12/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:13:11::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:13:11::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_5/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-05-05.13:13:11::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-05-05.13:13:11::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:13:11::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:13:11::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:13:11::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:13:11::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2026-05-05.13:13:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2026-05-05.13:13:11::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2026-05-05.13:13:11::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2026-05-05.13:13:12::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2026-05-05.13:13:12::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2026-05-05.13:13:12::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2026-05-05.13:13:12::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:13:12::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:13:12::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:13:12::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:13:12::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2026-05-05.13:13:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:13:13::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:13:13::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:13::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_14/src"
+
+TRACE::2026-05-05.13:13:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_14/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2026-05-05.13:13:13::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2026-05-05.13:13:13::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:13::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2026-05-05.13:13:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:13:13::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:13:13::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:14::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2026-05-05.13:13:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:13:14::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:13:14::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:14::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_5/src"
+
+TRACE::2026-05-05.13:13:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:13:14::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:13:14::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:16::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2026-05-05.13:13:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2026-05-05.13:13:16::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2026-05-05.13:13:16::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:16::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2026-05-05.13:13:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:13:16::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:13:16::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:17::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_12/src"
+
+TRACE::2026-05-05.13:13:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:13:17::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:13:17::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:17::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_5/src"
+
+TRACE::2026-05-05.13:13:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2026-05-05.13:13:17::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2026-05-05.13:13:17::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:18::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2026-05-05.13:13:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2026-05-05.13:13:18::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2026-05-05.13:13:18::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:18::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2026-05-05.13:13:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2026-05-05.13:13:18::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2026-05-05.13:13:18::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:18::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2026-05-05.13:13:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2026-05-05.13:13:18::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2026-05-05.13:13:18::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.13:13:24::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2026-05-05.13:13:24::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-05-05.13:13:24::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xadcps_selftest.o ps7_corte
+TRACE::2026-05-05.13:13:24::SCWMssOS::xa9_0/lib/kill.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xqspips_options.o ps7_co
+TRACE::2026-05-05.13:13:24::SCWMssOS::rtexa9_0/lib/print.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_co
+TRACE::2026-05-05.13:13:24::SCWMssOS::rtexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/
+TRACE::2026-05-05.13:13:24::SCWMssOS::xdevcfg_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0
+TRACE::2026-05-05.13:13:24::SCWMssOS::/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortex
+TRACE::2026-05-05.13:13:24::SCWMssOS::a9_0/lib/xil_util.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_
+TRACE::2026-05-05.13:13:24::SCWMssOS::0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/xuar
+TRACE::2026-05-05.13:13:24::SCWMssOS::tps_options.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/close.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xsdps
+TRACE::2026-05-05.13:13:24::SCWMssOS::.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xqspips_g
+TRACE::2026-05-05.13:13:24::SCWMssOS::.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xqspips_selftest.o ps7_cortexa9_0/lib/translation_table.o ps7_corte
+TRACE::2026-05-05.13:13:24::SCWMssOS::xa9_0/lib/write.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/li
+TRACE::2026-05-05.13:13:24::SCWMssOS::b/xscugic_g.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/l
+TRACE::2026-05-05.13:13:24::SCWMssOS::ib/usleep.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/li
+TRACE::2026-05-05.13:13:24::SCWMssOS::b/xadcps.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/l
+TRACE::2026-05-05.13:13:24::SCWMssOS::ib/xil_sleeptimer.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0
+TRACE::2026-05-05.13:13:24::SCWMssOS::/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/read.o ps7_cortex
+TRACE::2026-05-05.13:13:24::SCWMssOS::a9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xil_cache.o ps7_corte
+TRACE::2026-05-05.13:13:24::SCWMssOS::xa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/asm_vectors.o ps7_co
+TRACE::2026-05-05.13:13:24::SCWMssOS::rtexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cor
+TRACE::2026-05-05.13:13:24::SCWMssOS::texa9_0/lib/xuartps.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_cortex
+TRACE::2026-05-05.13:13:24::SCWMssOS::a9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa
+TRACE::2026-05-05.13:13:24::SCWMssOS::9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/
+TRACE::2026-05-05.13:13:24::SCWMssOS::xusbps_sinit.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_c
+TRACE::2026-05-05.13:13:24::SCWMssOS::ortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/fstat.o ps7_cortexa9_0/lib/er
+TRACE::2026-05-05.13:13:24::SCWMssOS::rno.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/_sbrk.o ps7_cortexa9_0/lib/vectors.o ps7
+TRACE::2026-05-05.13:13:24::SCWMssOS::_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/xil_clockin
+TRACE::2026-05-05.13:13:24::SCWMssOS::g.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xsdps_host.o ps
+TRACE::2026-05-05.13:13:24::SCWMssOS::7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xil-crt0.o ps7
+TRACE::2026-05-05.13:13:24::SCWMssOS::_cortexa9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/xil_spinlock.o 
+TRACE::2026-05-05.13:13:24::SCWMssOS::ps7_cortexa9_0/lib/xdevcfg.o
+
+TRACE::2026-05-05.13:13:25::SCWMssOS::'Finished building libraries'
+
+TRACE::2026-05-05.13:13:27::SCWMssOS::Copying to export directory.
+TRACE::2026-05-05.13:13:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-05-05.13:13:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-05-05.13:13:29::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-05-05.13:13:29::SCWSystem::Completed Processing the sysconfig zybo_platform
+LOG::2026-05-05.13:13:29::SCWPlatform::Completed generating the artifacts for system configuration zybo_platform
+TRACE::2026-05-05.13:13:29::SCWPlatform::Started preparing the platform 
+TRACE::2026-05-05.13:13:29::SCWSystem::Writing the bif file for system config zybo_platform
+TRACE::2026-05-05.13:13:29::SCWSystem::dir created 
+TRACE::2026-05-05.13:13:29::SCWSystem::Writing the bif 
+TRACE::2026-05-05.13:13:29::SCWPlatform::Started writing the spfm file 
+TRACE::2026-05-05.13:13:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-05-05.13:13:29::SCWPlatform::Completed generating the platform
+TRACE::2026-05-05.13:13:29::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:13:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:13:29::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:13:29::SCWMssOS::Saving the mss changes C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.13:13:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.13:13:29::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.13:13:29::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:13:29::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:13:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:13:29::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:13:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:13:29::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:13:29::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:13:29::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:13:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:13:29::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:13:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:13:29::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:13:29::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWWriter::formatted JSON is {
+	"platformName":	"zybo_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zybo_platform",
+	"platHandOff":	"C:/Users/019130137/zybo1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zybo_platform",
+	"systems":	[{
+			"systemName":	"zybo_platform",
+			"systemDesc":	"zybo_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zybo_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"c9fcc2f2165c619748c8e4303559f135",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.5", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"9ba77c14897b77cd6740901bf6f24f75",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-05-05.13:13:29::SCWPlatform::updated the xpfm file.
+TRACE::2026-05-05.13:13:29::SCWPlatform::Trying to open the hw design at C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA given C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA absoulate path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform::DSA directory C:/Users/019130137/workspace/zybo_platform/hw
+TRACE::2026-05-05.13:13:29::SCWPlatform:: Platform Path C:/Users/019130137/workspace/zybo_platform/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.13:13:29::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2026-05-05.13:13:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2026-05-05.13:13:29::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2026-05-05.13:13:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.13:13:29::SCWMssOS::Checking the sw design at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2026-05-05.13:13:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/019130137/workspace/zybo_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2026-05-05.13:13:29::SCWMssOS::Sw design exists and opened at  C:/Users/019130137/workspace/zybo_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss

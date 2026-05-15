@@ -1,0 +1,10 @@
+13:37:09 **** Incremental Build of configuration Debug for project hello_world_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51286 C:/Users/019130137/workspace/zybo_platform/export/zybo_platform/zybo_platform.xpfm standalone_domain C:/Users/019130137/workspace/hello_world_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/019130137/workspace/zybo_platform/export/zybo_platform/zybo_platform.xpfm --sys_config zybo_platform --bif C:/Users/019130137/workspace/hello_world_system/Debug/system.bif --bitstream C:/Users/019130137/workspace/hello_world/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/019130137/workspace/hello_world/Debug/hello_world.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/019130137/workspace/hello_world/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2021.1/bin/bootgen  -image C:/Users/019130137/workspace/hello_world_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+13:37:25 Build Finished (took 15s.246ms)
+

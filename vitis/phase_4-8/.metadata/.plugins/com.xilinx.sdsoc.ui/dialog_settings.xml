@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="C:\Users\019130137\workspace\zybo_platform\export\zybo_platform;C:\Users\019130137\matrix_accel_project\matrix_accel_project\vitis\phase4_arm_matmul_workspace\zybo_platform;C:\Users\019130137\matrix_accel_project\matrix_accel_project\vitis\phase4_arm_matmul_workspace\zybo_platform1\export\zybo_platform1;C:\Users\019130137\matrix_accel_project\matrix_accel_project\vitis\phase4_arm_matmul_workspace\zybo2\export\zybo2"/>
+	<item key="sdx.custom.platform.repository.last.directory.dialog.location" value="C:\Users\019130137\matrix_accel_project\matrix_accel_project\vitis\phase4_arm_matmul_workspace\zybo2\export\zybo2"/>
+</section>

@@ -1,0 +1,31 @@
+#include "xil_io.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+
+#define ACCEL_BASE XPAR_MATRIX_ACCEL_0_S00_AXI_BASEADDR
+
+#define REG_CTRL   0x00
+#define REG_STATUS 0x04
+#define REG_M      0x08
+#define REG_K      0x0C
+#define REG_N      0x10
+#define REG_RESULT 0x14
+
+int main()
+{
+    xil_printf("AXI-Lite register test\r\n");
+
+    Xil_Out32(ACCEL_BASE + REG_M, 4);
+    Xil_Out32(ACCEL_BASE + REG_K, 4);
+    Xil_Out32(ACCEL_BASE + REG_N, 4);
+
+    Xil_Out32(ACCEL_BASE + REG_CTRL, 1);
+
+    u32 status = Xil_In32(ACCEL_BASE + REG_STATUS);
+    u32 result = Xil_In32(ACCEL_BASE + REG_RESULT);
+
+    xil_printf("STATUS = %d\r\n", status);
+    xil_printf("RESULT = %d\r\n", result);
+
+    return 0;
+}

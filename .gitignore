@@ -1,0 +1,24 @@
+# Compiled binaries
+software_model/matmul
+tb/pe_test
+tb/*.vcd
+
+# Vivado generated
+vivado/*.runs/
+vivado/*.cache/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.xpr
+vivado/*.bit
+vivado/*.xsa
+vivado/.Xil/
+
+# Vitis generated
+vitis/.metadata/
+vitis/*/Debug/
+vitis/*/Release/
+
+# OS
+.DS_Store
+
+tb/test_*
