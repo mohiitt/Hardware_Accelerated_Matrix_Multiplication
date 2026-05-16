@@ -17,7 +17,6 @@ The PS writes input matrices (8-bit integers) to DDR memory, configures the PL a
 - **Phase 9: Real Matmul Accelerator** - Integrate the 4x4 matrix multiplication FSM with the AXI DMA data streams.
 
 ## Remaining Phases
-- **Phase 9: Real Matmul Accelerator** - Integrate the 4x4 matrix multiplication FSM with the AXI DMA data streams.
 - **Phase 10: Scaling Dimensions** - Scale the single-PE design to handle larger matrix sizes incrementally (8x8, 16x16, 32x32, 64x64).
 - **Phase 11: 8-PE Array** - Add 8 Processing Elements operating in parallel to compute multiple columns simultaneously.
 - **Phase 12: Larger Matrix Support** - Test the 8-PE array on larger matrix dimensions, observing BRAM and resource usage.
