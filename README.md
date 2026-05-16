@@ -14,6 +14,7 @@ The PS writes input matrices (8-bit integers) to DDR memory, configures the PL a
 - **Phase 6: Hardcoded PL Matmul** - Implemented a small, hardcoded matrix multiplication FSM in the PL to verify computation without DMA complexity.
 - **Phase 7: DMA Loopback** - Connected and verified AXI DMA by streaming data from DDR, looping it back, and receiving it in DDR.
 - **Phase 8: Pass-Through Accelerator** - Replaced the loopback with a custom streaming PL block to verify AXI-Stream handshaking.
+- **Phase 9: Real Matmul Accelerator** - Integrate the 4x4 matrix multiplication FSM with the AXI DMA data streams.
 
 ## Remaining Phases
 - **Phase 9: Real Matmul Accelerator** - Integrate the 4x4 matrix multiplication FSM with the AXI DMA data streams.
