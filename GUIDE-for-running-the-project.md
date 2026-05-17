@@ -23,7 +23,7 @@ matrix_accel_project/
 |   |-- ip_repo/                      # Packaged Custom IP Repository
 |   |   |-- component.xml             # IP Metadata/Packaging Definition
 |   |   |
-|   |   |-- hdl/                      # Verilog Source Files
+|   |   |-- src/                      # Verilog Source Files
 |   |   |   |-- matrix_accel_v1_0.v            # Top-level IP wrapper
 |   |   |   |-- matrix_accel_v1_0_S00_AXI.v    # Core FSM & PE compute engine
 |   |   |
