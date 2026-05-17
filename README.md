@@ -1,243 +1,125 @@
-# Hardware-Accelerated Matrix Multiplication
+# Hardware-Accelerated Matrix Multiplication on Zynq-7000
 
-## Project Overview
-
-This project implements a progressively optimized hardware-software co-design for matrix multiplication on the **Zybo Z7 (Zynq-7000)** FPGA platform.
-
-The system accelerates matrix multiplication:
-
-\[
-C = A \times B
-\]
-
-by offloading computation from the ARM Cortex-A9 Processing System (PS) to a custom accelerator implemented in the FPGA Programmable Logic (PL).
-
-The final accelerator supports:
-
-- 64×64 matrix multiplication
-- 32×32 tiled execution
-- int8 input matrices
-- int32 accumulation/output
-- AXI DMA streaming
-- 64-bit AXI-Stream
-- 16-column parallel compute path
-- BRAM-based tile buffers
-- Ping-pong buffering
-- True overlapped load/compute scheduling
-
-The project evolved incrementally through multiple hardware and software optimization phases, beginning with a pure software implementation and ending with a fully pipelined tiled accelerator achieving over **5× speedup** versus the ARM software baseline.
+An optimized hardware-software co-design implementing high-performance matrix multiplication ($C = A \times B$) on the **Zybo Z7 (Zynq-7000)** FPGA platform. The system offloads the computationally intensive matrix multiplication to a custom, pipelined Processing Element (PE) array in the FPGA's Programmable Logic (PL), while the ARM Cortex-A9 Processing System (PS) manages data layout, cache consistency, and execution control.
 
 ---
 
-# Final Performance
+## Technical Architecture Overview
 
-| Configuration | Software Time | Hardware Time | Speedup |
-|---|---|---|---|
-| Phase 13 initial tiled | 10048 us | 14879 us | 0.67× |
-| Phase 14 PL accumulation | 10072 us | 8760 us | 1.14× |
-| Phase 15 pre-packed streams | 10049 us | 3178 us | 3.16× |
-| Phase 16 64-bit AXI stream | 10072 us | 3293 us | 3.05× |
-| Phase 17C fast output path | 10073 us | 3171 us | 3.17× |
-| Phase 18A 16-column PE path | 10073 us | 2136 us | 4.71× |
-| Phase 18B true overlap | 10073 us | 1952 us | 5.15× |
+The system splits computation between the ARM Processing System (PS) and the FPGA Programmable Logic (PL) using dual AXI interfaces:
+* **Control Path**: Registers (CTRL, STATUS, DIM_M, DIM_K, DIM_N, NUM_KTILES) are accessed via an AXI4-Lite slave interface over the General Purpose GP0 port.
+* **Data Path**: Bulk matrix data is streamed between DDR memory and BRAM tile buffers via a Xilinx AXI DMA controller over the high-performance S_AXI_HP0 port.
 
----
-
-# Final Accelerator Features
-
-- AXI-Lite control interface
-- AXI DMA integration
-- 64-bit AXI-Stream
-- BRAM-based tile buffers
-- Ping-pong A/B buffering
-- PL-side K-tile accumulation
-- 16-column parallel MAC datapath
-- 16-bank B tile BRAM organization
-- 16-bank C accumulator BRAM organization
-- Fast dual-output packing path
-- True overlapped prefetch + compute scheduling
+### Core Hardware Features
+* **64-bit AXI-Stream Integration**: Allows high-bandwidth transmission of 8 packed `int8` input elements or 2 packed `int32` outputs per clock cycle.
+* **Banked BRAM Design**: Organized into 8 parallel BRAM banks for both B-tiles and C-accumulators to support parallel read and write accesses in a single clock cycle.
+* **Ping-Pong Buffer Infrastructure**: Dual-buffer system (`A0`/`A1` and `B0`/`B1`) enables a complete overlap between compute and loading cycles.
+* **True K-Tile Prefetch Overlap**: An independent prefetch loader FSM retrieves the next K-tile pair from DDR in the background while the MAC pipeline computes the current block.
+* **Dual-Lane Output Packing**: A dedicated output FSM reads two `int32` values sequentially and streams them out as a single 64-bit word, maximizing bus utilization.
 
 ---
 
-# Phase Evolution
+## Final Performance & Speedup
 
-## Phase 1 — Software Matrix Multiplication
-- Pure software matrix multiplication reference implementation in C
-- Correctness validation
-- Timing baseline
+Through progressive hardware and software refinements, the system achieved a **5.15× speedup** over the highly optimized ARM software baseline for 64×64 matrices.
 
-## Phase 2 — Processing Element (PE) Simulation
-- Single multiply-accumulate PE in Verilog
-- int8 multiplication
-- int32 accumulation
-
-## Phase 3 — Zybo Bring-Up
-- Base Zynq block design
-- ARM execution validation
-- UART verification
-
-## Phase 4 — ARM Software Matmul
-- Matrix multiplication running on ARM Cortex-A9
-- On-board software timing
-
-## Phase 5 — AXI-Lite Register Interface
-- Custom AXI-Lite IP
-- ARM ↔ PL communication
-- Control/status registers
-
-## Phase 6 — Hardcoded PL Matrix Multiply
-- Small FSM-based matrix multiplication in PL
-- No DMA yet
-- End-to-end PL compute verification
-
-## Phase 7 — DMA Loopback
-- AXI DMA verification
-- DDR → DMA → PL → DMA → DDR
-- AXI-Stream testing
-
-## Phase 8 — Streaming Pass-Through Accelerator
-- Custom AXI-Stream accelerator block
-- Stream handshaking validation
-
-## Phase 9 — First Real DMA Matrix Multiply
-Configuration:
-- 4×4 matrix multiply
-- 32-bit AXI stream
-- Single compute path
-
-Result:
-```text
-MATRIX MULTIPLY 4x4 PASS
-```
-
-## Phase 10 — Scaling to Larger Dimensions
-Tested:
-- 8×8
-- 16×16
-
-Result:
-```text
-MATRIX MULTIPLY 16x16 PASS
-```
-
-## Phase 11 — 8 Parallel Processing Elements
-- 8 output columns computed simultaneously
-- 8 accumulators
-- Parallel MAC datapath
-
-Result:
-```text
-8-PE MATRIX MULTIPLY PASS
-```
-
-## Phase 12 — BRAM-Based Tile Buffers
-- BRAM A tile buffer
-- Banked B BRAMs
-- Banked C accumulator BRAMs
-- Reduced LUT over-utilization
-
-Result:
-```text
-32×32 BRAM MATRIX MULTIPLY PASS
-```
-
-## Phase 13 — 64×64 Software-Controlled Tiling
-- 32×32 tiled execution
-- Software-managed tile extraction
-- PS-side partial accumulation
-
-Result:
-```text
-TILED MATRIX MULTIPLY 64x64 PASS
-```
-
-## Phase 14 — PL-Side K-Tile Accumulation
-- Partial accumulation moved into PL
-- NUM_KTILES support
-- Reduced PS overhead
-
-Result:
-```text
-PL-SIDE KTILE ACCUMULATION 64x64 PASS
-```
-
-## Phase 15 — Pre-Packed Tile Streams
-- Tile extraction/packing moved outside timed section
-- Pre-packed DMA streams
-- Major timing improvement
-
-Result:
-```text
-PRE-PACKED TILE INPUT 64x64 PASS
-```
-
-## Phase 16 — 64-Bit AXI-Stream
-- 32-bit → 64-bit AXI-Stream
-- 8 int8 values per beat
-- 2 int32 outputs per beat
-- u64 software buffers
-
-Result:
-```text
-PHASE 16 64-BIT STREAM 64x64 PASS
-```
-
-## Phase 17A — Ping-Pong Buffer Infrastructure
-- A0/A1 tile buffers
-- Duplicated B banks
-- Buffer selectors
-
-## Phase 17C — Faster Output Packing
-- Shared-address dual-bank output read
-- Reduced output FSM latency
-
-Result:
-```text
-PHASE 17C 64-BIT STREAM 64x64 PASS
-```
-
-## Phase 18A — 16-Column Parallelism
-- 16 B banks
-- 16 C banks
-- 16 MAC paths
-
-Result:
-```text
-PHASE 18A 64-BIT STREAM 64x64 PASS
-```
-
-## Phase 18B — True K-Tile Prefetch Overlap
-- Compute current K-tile while loading next K-tile
-- Independent prefetch FSM
-- True overlap scheduling
-
-Result:
-```text
-PHASE 18B 64-BIT STREAM 64x64 PASS
-```
+| Optimization Stage | Software Time | Hardware Time | Speedup Factor | Key Improvement |
+| :--- | :---: | :---: | :---: | :--- |
+| **Phase 13**: Initial Tiled | 10,048 µs | 14,879 µs | 0.67× | Software-managed tiling; PS-side accumulation |
+| **Phase 14**: PL Accumulation | 10,072 µs | 8,760 µs | 1.14× | Partial sums accumulated on the PL side |
+| **Phase 15**: Pre-Packed Streams | 10,049 µs | 3,178 µs | 3.16× | Tile extraction/packing done outside the timed loop |
+| **Phase 16**: 64-bit AXI-Stream | 10,072 µs | 3,293 µs | 3.05× | Transitioned stream width from 32-bit to 64-bit |
+| **Phase 17C**: Fast Output Path | 10,073 µs | 3,171 µs | 3.17× | Dual-bank read FSM to accelerate stream-out latency |
+| **Phase 18A**: 16-Column PE Path | 10,073 µs | 2,136 µs | 4.71× | Expanded parallel PE datapath to 16 concurrent columns |
+| **Phase 18B**: True Overlap | 10,073 µs | 1,952 µs | **5.15×** | Computed current K-tile while prefetching the next |
 
 ---
 
-# Technologies Used
+## Progressive Phase Evolution
 
-- Zybo Z7 FPGA Board
-- Xilinx Vivado
-- Xilinx Vitis
-- Verilog HDL
-- AXI4-Lite
-- AXI4-Stream
-- AXI DMA
-- Bare-metal C
-- BRAM-based accelerator design
+### Phase 1 — Software Reference Model
+* Designed a pure C software reference implementation on macOS.
+* Validated matrix math correctness and established the baseline execution rules.
+
+### Phase 2 — Processing Element (PE) Simulation
+* Designed a single pipelined multiply-accumulate (MAC) PE in Verilog (`int8` inputs, `int32` accumulator).
+* Verified functionality and latencies via Icarus Verilog.
+
+### Phase 3 — Zybo Bring-Up
+* Built the base Zynq hardware design in Vivado, exported the hardware platform (.xsa), and ran "Hello World" on the Zybo Z7.
+
+### Phase 4 — ARM Software Matmul
+* Executed the reference C matrix multiplication on the ARM Cortex-A9 core.
+* Set up hardware timer benchmarks for local software timing.
+
+### Phase 5 — AXI-Lite Register Interface
+* Built a custom AXI-Lite IP and established register mappings.
+* Validated basic read/write handshakes between the ARM PS and PL registers.
+
+### Phase 6 — Hardcoded PL Matrix Multiply
+* Implemented a hardcoded matrix multiplier FSM in the PL without DMA.
+* Verified that computational blocks matched software math exactly.
+
+### Phase 7 — DMA Loopback
+* Configured and validated the AXI DMA IP block in Vivado.
+* Executed simple polling DMA transfers from DDR, through a stream loopback, and back to DDR.
+
+### Phase 8 — Streaming Pass-Through Accelerator
+* Integrated the custom PL IP with AXI-Stream interfaces.
+* Validated handshakes (`tvalid`, `tready`, `tlast`) between the DMA engine and the accelerator.
+
+### Phase 9 — First Real DMA Matrix Multiply
+* Integrated a 4×4 FSM multiplier with AXI DMA.
+* **Outcome**: `MATRIX MULTIPLY 4x4 PASS`
+
+### Phase 10 — Scaling Dimensions
+* Expanded internal registers and counters to handle larger matrices without tiling.
+* **Outcome**: `MATRIX MULTIPLY 16x16 PASS`
+
+### Phase 11 — 8 Parallel Processing Elements
+* Added an 8-PE parallel compute array to calculate 8 columns simultaneously.
+* **Outcome**: `8-PE MATRIX MULTIPLY PASS`
+
+### Phase 12 — BRAM-Based Tile Buffers
+* Moved BRAM allocation away from LUTs to dedicated block RAMs.
+* Designed banked B and C memories to eliminate port-contention bottlenecks.
+
+### Phase 13 — 64×64 Tiled Execution
+* Designed a 32×32 tiled execution scheme with PS-side loop control.
+* **Outcome**: `TILED MATRIX MULTIPLY 64x64 PASS`
+
+### Phase 14 — PL-Side K-Tile Accumulation
+* Moved partial accumulation logic into the hardware FSM.
+* Added support for `NUM_KTILES` registers, dramatically reducing PS control overhead.
+
+### Phase 15 — Pre-Packed Tile Streams
+* Pre-formatted the memory layout of tiles in DDR before launching the execution loop.
+* Maximized DMA burst efficiency by aligning and packaging streams early.
+
+### Phase 16 — 64-Bit AXI-Stream
+* Upgraded the stream data width to 64 bits.
+* Streamed 8 `int8` elements per transmit beat and 2 `int32` accumulated elements per receive beat.
+
+### Phase 17A — Ping-Pong Buffer Infrastructure
+* Duplicated A and B tile buffers in BRAM.
+* Designed buffer selectors to swap active read/write buffers.
+
+### Phase 17C — Faster Output Packing
+* Refined the output FSM to read two `int32` elements sequentially from banked RAMs and stream them out packed in a single clock cycle.
+
+### Phase 18A — 16-Column Parallelism
+* Doubled the parallel MAC paths to 16 concurrent columns.
+* Expanded BRAM banking to 16 independent B and C banks.
+
+### Phase 18B — True K-Tile Prefetch Overlap
+* Implemented an independent background stream loader FSM.
+* **Outcome**: Reached a final **5.15× hardware speedup** with fully overlapped memory fetch and computation.
 
 ---
 
-# Final Outcome
+## Technology Stack
 
-The final accelerator achieved:
-
-```text
-~5.15× speedup
-```
-
-over the ARM software baseline while maintaining full correctness.
+* **Hardware Platform**: Zybo Z7 Development Board (Xilinx Zynq-7000 SoC)
+* **EDA / Design Suite**: Xilinx Vivado & Xilinx Vitis (v2020.2 or later)
+* **Languages**: Verilog HDL, Bare-metal C
+* **Interconnect Standards**: AXI4-Lite (Control), AXI4-Stream (Data), AXI DMA (Direct Memory Access)
